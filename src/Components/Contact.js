@@ -4,6 +4,7 @@ import '../App.css';
 const Contact = () => {
     return (
         <div className='contact'>
+            <h1>Contact</h1>
             <a href='https://soundcloud.com/inflatedpenguins'>
                 <img className='link-badge' src='https://image.flaticon.com/icons/svg/1051/1051241.svg' />
             </a>
