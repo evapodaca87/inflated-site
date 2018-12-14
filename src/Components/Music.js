@@ -6,6 +6,7 @@ var sound = new Howl({
     src: [ '/Sounds/Slide.mp3' ]
 });
 let play = () => {
+    sound.stop();
     sound.play();
     console.log('should be playing');
 };
