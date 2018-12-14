@@ -26,12 +26,14 @@ h1 {
     border-radius: 5%;
     width: 80%;
     margin: auto;
+    box-shadow: 4px 4px 4px #696767;
 }
 .music {
     background-color: rgba(255, 255, 255, 0.571);
     border-radius: 5%;
-    width: auto;
+    width: 80%;
     margin: auto;
+    box-shadow: 4px 4px 4px #696767;
 }
 .about {
     background-color: rgba(255, 255, 255, 0.571);
@@ -39,6 +41,7 @@ h1 {
     width: 80%;
     margin: auto;
     margin-top: 5%;
+    box-shadow: 4px 4px 4px #696767;
 }
 .link-badge {
     height: 150px;
@@ -52,6 +55,8 @@ h1 {
 }
 .songs {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .song {
     background-image: url('./images/slide.png');
@@ -60,7 +65,7 @@ h1 {
     width: 250px;
     border-radius: 25%;
     margin: 10px;
-
+    box-shadow: 4px 4px 4px #696767;
 }
 .song2 {
     background-image: url('./images/glide.JPG');
@@ -69,7 +74,7 @@ h1 {
     width: 250px;
     border-radius: 25%;
     margin: 10px;
-
+    box-shadow: 4px 4px 4px #696767;
 }
 .song3 {
     background-image: url('./images/peng.png');
@@ -78,7 +83,52 @@ h1 {
     width: 250px;
     border-radius: 25%;
     margin: 10px;
-
+    box-shadow: 4px 4px 4px #696767;
+}
+.song4 {
+    background-image: url('./images/arctic.png');
+    background-size: 250px;
+    height: 250px;
+    width: 250px;
+    border-radius: 25%;
+    margin: 10px;
+    box-shadow: 4px 4px 4px #696767;
+}
+.song5 {
+    background-image: url('./images/taku.jpg');
+    background-size: 250px;
+    height: 250px;
+    width: 250px;
+    border-radius: 25%;
+    margin: 10px;
+    box-shadow: 4px 4px 4px #696767;
+}
+.song6 {
+    background-image: url('./images/casamir.png');
+    background-size: 250px;
+    height: 250px;
+    width: 250px;
+    border-radius: 25%;
+    margin: 10px;
+    box-shadow: 4px 4px 4px #696767;
+}
+.song7 {
+    background-image: url('./images/mean.JPG');
+    background-size: 250px;
+    height: 250px;
+    width: 250px;
+    border-radius: 25%;
+    margin: 10px;
+    box-shadow: 4px 4px 4px #696767;
+}
+.song8 {
+    background-image: url('./images/gamb.png');
+    background-size: 250px;
+    height: 250px;
+    width: 250px;
+    border-radius: 25%;
+    margin: 10px;
+    box-shadow: 4px 4px 4px #696767;
 }
 .songName {
     color: white;
