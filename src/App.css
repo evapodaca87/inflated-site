@@ -161,6 +161,12 @@ h2 {
     text-shadow: 4px 4px 4px #696767;
 }
 
+.playStop {
+    height: 5vh;
+    margin: 1vw;
+
+}
+
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
     .app {

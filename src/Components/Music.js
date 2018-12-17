@@ -146,43 +146,107 @@ const Music = () => {
             <div className='songs'>
                 <div className='song4'>
                     <h2 className='songName'>Arctic Light</h2>
-                    <h2 onClick={play4}>PLAY</h2>
-                    <h2 onClick={stop4}>STOP</h2>
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660570.svg'
+                        onClick={play4}
+                    />
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660569.svg'
+                        onClick={stop4}
+                    />
                 </div>
                 <div className='song'>
                     <h2 className='songName'>Slide</h2>
-                    <h2 onClick={play2}>PLAY</h2>
-                    <h2 onClick={stop2}>STOP</h2>
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660570.svg'
+                        onClick={play2}
+                    />
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660569.svg'
+                        onClick={stop2}
+                    />
                 </div>
                 <div className='song2'>
                     <h2 className='songName'>Glide</h2>
-                    <h2 onClick={play}>PLAY</h2>
-                    <h2 onClick={stop}>STOP</h2>
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660570.svg'
+                        onClick={play}
+                    />
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660569.svg'
+                        onClick={stop}
+                    />
                 </div>
                 <div className='song5'>
                     <h2 className='songName'>Finally</h2>
-                    <h2 onClick={play5}>PLAY</h2>
-                    <h2 onClick={stop5}>STOP</h2>
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660570.svg'
+                        onClick={play5}
+                    />
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660569.svg'
+                        onClick={stop5}
+                    />
                 </div>
                 <div className='song3'>
                     <h2 className='songName'>2feet Gambino</h2>
-                    <h2 onClick={play3}>PLAY</h2>
-                    <h2 onClick={stop3}>STOP</h2>
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660570.svg'
+                        onClick={play3}
+                    />
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660569.svg'
+                        onClick={stop3}
+                    />
                 </div>
                 <div className='song6'>
                     <h2 className='songName'>Casamir Remix</h2>
-                    <h2 onClick={play6}>PLAY</h2>
-                    <h2 onClick={stop6}>STOP</h2>
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660570.svg'
+                        onClick={play6}
+                    />
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660569.svg'
+                        onClick={stop6}
+                    />
                 </div>
                 <div className='song7'>
                     <h2 className='songName'>Mean 2 Me Remix</h2>
-                    <h2 onClick={play7}>PLAY</h2>
-                    <h2 onClick={stop7}>STOP</h2>
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660570.svg'
+                        onClick={play7}
+                    />
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660569.svg'
+                        onClick={stop7}
+                    />
                 </div>
                 <div className='song8'>
                     <h2 className='songName'>Into U Remix</h2>
-                    <h2 onClick={play8}>PLAY</h2>
-                    <h2 onClick={stop8}>STOP</h2>
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660570.svg'
+                        onClick={play8}
+                    />
+                    <img
+                        className='playStop'
+                        src='https://image.flaticon.com/icons/svg/660/660569.svg'
+                        onClick={stop8}
+                    />
                 </div>
             </div>
         </div>
