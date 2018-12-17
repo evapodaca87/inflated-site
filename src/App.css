@@ -34,13 +34,17 @@ h2 {
     margin-right: 10px;
     margin-top: 0;
 }
-.navLink{
+.navLink {
     height: 12vh;
     margin: 1vw;
 }
+.head {
+    display: flex;
+    flex-direction: column;
+}
 .header {
-    width: 50%;
     margin: auto;
+    font-size: 8em;
 }
 .contact {
     background-color: rgba(255, 255, 255, 0.571);
@@ -155,4 +159,18 @@ h2 {
     color: white;
     font-size: 4rem;
     text-shadow: 4px 4px 4px #696767;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .app {
+        width: 30%;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .app {
+        width: 100%;
+    }
 }
