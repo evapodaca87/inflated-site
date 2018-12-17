@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom';
 const Head = () => {
     return (
         <div className='head'>
-            <h1 className="header">Inflated Penguins🎈🐧</h1>
+            <h1 className="header">Inflated Penguins</h1>
             <div className='nav'>
                 <Link to='/'>
-                    <h2 className='nav'>Home</h2>
+                <img className="navLink" src="https://image.flaticon.com/icons/svg/70/70370.svg"></img>
                 </Link>
                 <Link to='/music'>
-                    <h2 className='nav'>Music</h2>
+                <img className="navLink" src="https://image.flaticon.com/icons/svg/149/149648.svg"></img>
                 </Link>
                 <Link to='/contact'>
-                    <h2 className='nav'>Contact</h2>
+                <img className="navLink" src="https://image.flaticon.com/icons/svg/47/47973.svg"></img>
                 </Link>
             </div>
         </div>

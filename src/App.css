@@ -34,6 +34,10 @@ h2 {
     margin-right: 10px;
     margin-top: 0;
 }
+.navLink{
+    height: 12vh;
+    margin: 1vw;
+}
 .header {
     width: 50%;
     margin: auto;
